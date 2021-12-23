@@ -11,14 +11,14 @@ import (
 	// _ "k8s.io/client-go/plugin/pkg/client/auth/oidc"
 	// _ "k8s.io/client-go/plugin/pkg/client/auth/openstack"
 
-	containerKill "github.com/litmuschaos/litmus-go/chaoslib/litmus/container-kill/helper"
-	diskFill "github.com/litmuschaos/litmus-go/chaoslib/litmus/disk-fill/helper"
-	networkChaos "github.com/litmuschaos/litmus-go/chaoslib/litmus/network-chaos/helper"
-	dnsChaos "github.com/litmuschaos/litmus-go/chaoslib/litmus/pod-dns-chaos/helper"
-	stressChaos "github.com/litmuschaos/litmus-go/chaoslib/litmus/stress-chaos/helper"
+	containerKill "github.com/Vr00mm/litmus-chaos-toolkit/chaoslib/litmus/container-kill/helper"
+	diskFill "github.com/Vr00mm/litmus-chaos-toolkit/chaoslib/litmus/disk-fill/helper"
+	networkChaos "github.com/Vr00mm/litmus-chaos-toolkit/chaoslib/litmus/network-chaos/helper"
+	dnsChaos "github.com/Vr00mm/litmus-chaos-toolkit/chaoslib/litmus/pod-dns-chaos/helper"
+	stressChaos "github.com/Vr00mm/litmus-chaos-toolkit/chaoslib/litmus/stress-chaos/helper"
 
-	"github.com/litmuschaos/litmus-go/pkg/clients"
-	"github.com/litmuschaos/litmus-go/pkg/log"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/clients"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/log"
 	"github.com/sirupsen/logrus"
 )
 

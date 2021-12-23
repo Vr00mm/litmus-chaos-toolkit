@@ -13,12 +13,12 @@ import (
 	"net/http"
 
 	"github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1"
-	"github.com/litmuschaos/litmus-go/pkg/clients"
-	"github.com/litmuschaos/litmus-go/pkg/log"
-	"github.com/litmuschaos/litmus-go/pkg/math"
-	cmp "github.com/litmuschaos/litmus-go/pkg/probe/comparator"
-	"github.com/litmuschaos/litmus-go/pkg/types"
-	"github.com/litmuschaos/litmus-go/pkg/utils/retry"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/clients"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/log"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/math"
+	cmp "github.com/Vr00mm/litmus-chaos-toolkit/pkg/probe/comparator"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/types"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/utils/retry"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

@@ -4,14 +4,14 @@ import (
 	"os"
 	"time"
 
-	clients "github.com/litmuschaos/litmus-go/pkg/clients"
-	ebs "github.com/litmuschaos/litmus-go/pkg/cloud/aws/ebs"
-	"github.com/litmuschaos/litmus-go/pkg/events"
-	experimentTypes "github.com/litmuschaos/litmus-go/pkg/kube-aws/ebs-loss/types"
-	"github.com/litmuschaos/litmus-go/pkg/log"
-	"github.com/litmuschaos/litmus-go/pkg/probe"
-	"github.com/litmuschaos/litmus-go/pkg/types"
-	"github.com/litmuschaos/litmus-go/pkg/utils/common"
+	clients "github.com/Vr00mm/litmus-chaos-toolkit/pkg/clients"
+	ebs "github.com/Vr00mm/litmus-chaos-toolkit/pkg/cloud/aws/ebs"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/events"
+	experimentTypes "github.com/Vr00mm/litmus-chaos-toolkit/pkg/kube-aws/ebs-loss/types"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/log"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/probe"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/types"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/utils/common"
 	"github.com/pkg/errors"
 )
 

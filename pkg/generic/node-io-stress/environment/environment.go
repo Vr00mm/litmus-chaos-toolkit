@@ -3,8 +3,8 @@ package environment
 import (
 	"strconv"
 
-	experimentTypes "github.com/litmuschaos/litmus-go/pkg/generic/node-io-stress/types"
-	"github.com/litmuschaos/litmus-go/pkg/types"
+	experimentTypes "github.com/Vr00mm/litmus-chaos-toolkit/pkg/generic/node-io-stress/types"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/types"
 	clientTypes "k8s.io/apimachinery/pkg/types"
 )
 

@@ -1,10 +1,10 @@
 package kafka
 
 import (
-	"github.com/litmuschaos/litmus-go/pkg/clients"
-	experimentTypes "github.com/litmuschaos/litmus-go/pkg/kafka/types"
-	"github.com/litmuschaos/litmus-go/pkg/log"
-	"github.com/litmuschaos/litmus-go/pkg/status"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/clients"
+	experimentTypes "github.com/Vr00mm/litmus-chaos-toolkit/pkg/kafka/types"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/log"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/status"
 )
 
 // ClusterHealthCheck checks health of the kafka cluster

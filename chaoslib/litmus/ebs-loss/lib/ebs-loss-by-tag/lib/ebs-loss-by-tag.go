@@ -6,12 +6,12 @@ import (
 	"strings"
 	"syscall"
 
-	ebsloss "github.com/litmuschaos/litmus-go/chaoslib/litmus/ebs-loss/lib"
-	clients "github.com/litmuschaos/litmus-go/pkg/clients"
-	experimentTypes "github.com/litmuschaos/litmus-go/pkg/kube-aws/ebs-loss/types"
-	"github.com/litmuschaos/litmus-go/pkg/log"
-	"github.com/litmuschaos/litmus-go/pkg/types"
-	"github.com/litmuschaos/litmus-go/pkg/utils/common"
+	ebsloss "github.com/Vr00mm/litmus-chaos-toolkit/chaoslib/litmus/ebs-loss/lib"
+	clients "github.com/Vr00mm/litmus-chaos-toolkit/pkg/clients"
+	experimentTypes "github.com/Vr00mm/litmus-chaos-toolkit/pkg/kube-aws/ebs-loss/types"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/log"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/types"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/utils/common"
 	"github.com/pkg/errors"
 )
 

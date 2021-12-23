@@ -7,11 +7,11 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ssm"
-	experimentTypes "github.com/litmuschaos/litmus-go/pkg/aws-ssm/aws-ssm-chaos/types"
-	"github.com/litmuschaos/litmus-go/pkg/cloud/aws/common"
-	ec2 "github.com/litmuschaos/litmus-go/pkg/cloud/aws/ec2"
-	"github.com/litmuschaos/litmus-go/pkg/log"
-	"github.com/litmuschaos/litmus-go/pkg/utils/retry"
+	experimentTypes "github.com/Vr00mm/litmus-chaos-toolkit/pkg/aws-ssm/aws-ssm-chaos/types"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/cloud/aws/common"
+	ec2 "github.com/Vr00mm/litmus-chaos-toolkit/pkg/cloud/aws/ec2"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/log"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/utils/retry"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

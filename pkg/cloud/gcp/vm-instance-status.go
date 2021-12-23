@@ -3,7 +3,7 @@ package gcp
 import (
 	"strings"
 
-	"github.com/litmuschaos/litmus-go/pkg/log"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/log"
 	"github.com/pkg/errors"
 	"golang.org/x/net/context"
 	"google.golang.org/api/compute/v1"

@@ -4,8 +4,8 @@ import (
 	"strings"
 
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/litmuschaos/litmus-go/pkg/cloud/aws/common"
-	"github.com/litmuschaos/litmus-go/pkg/log"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/cloud/aws/common"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/log"
 	"github.com/pkg/errors"
 )
 

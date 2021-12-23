@@ -7,14 +7,14 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/litmuschaos/litmus-go/pkg/clients"
-	gcp "github.com/litmuschaos/litmus-go/pkg/cloud/gcp"
-	"github.com/litmuschaos/litmus-go/pkg/events"
-	experimentTypes "github.com/litmuschaos/litmus-go/pkg/gcp/gcp-vm-disk-loss/types"
-	"github.com/litmuschaos/litmus-go/pkg/log"
-	"github.com/litmuschaos/litmus-go/pkg/probe"
-	"github.com/litmuschaos/litmus-go/pkg/types"
-	"github.com/litmuschaos/litmus-go/pkg/utils/common"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/clients"
+	gcp "github.com/Vr00mm/litmus-chaos-toolkit/pkg/cloud/gcp"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/events"
+	experimentTypes "github.com/Vr00mm/litmus-chaos-toolkit/pkg/gcp/gcp-vm-disk-loss/types"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/log"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/probe"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/types"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/utils/common"
 	"github.com/pkg/errors"
 )
 

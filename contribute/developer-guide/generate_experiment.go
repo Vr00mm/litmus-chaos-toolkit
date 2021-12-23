@@ -10,8 +10,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/litmuschaos/litmus-go/contribute/developer-guide/types"
-	"github.com/litmuschaos/litmus-go/pkg/log"
+	"github.com/Vr00mm/litmus-chaos-toolkit/contribute/developer-guide/types"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/log"
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
 )

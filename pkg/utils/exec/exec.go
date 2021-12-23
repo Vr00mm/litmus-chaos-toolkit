@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/litmuschaos/litmus-go/pkg/clients"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/clients"
 	"github.com/pkg/errors"
 	apiv1 "k8s.io/api/core/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"

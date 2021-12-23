@@ -3,8 +3,8 @@ package annotation
 import (
 	"strings"
 
-	"github.com/litmuschaos/litmus-go/pkg/clients"
-	"github.com/litmuschaos/litmus-go/pkg/types"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/clients"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/types"
 	"github.com/pkg/errors"
 	core_v1 "k8s.io/api/core/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"

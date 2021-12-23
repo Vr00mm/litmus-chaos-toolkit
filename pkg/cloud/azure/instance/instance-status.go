@@ -10,10 +10,10 @@ import (
 	"github.com/Azure/azure-sdk-for-go/profiles/latest/compute/mgmt/compute"
 	"github.com/Azure/go-autorest/autorest/azure"
 	"github.com/Azure/go-autorest/autorest/azure/auth"
-	experimentTypes "github.com/litmuschaos/litmus-go/pkg/azure/instance-stop/types"
-	"github.com/litmuschaos/litmus-go/pkg/cloud/azure/common"
+	experimentTypes "github.com/Vr00mm/litmus-chaos-toolkit/pkg/azure/instance-stop/types"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/cloud/azure/common"
 
-	"github.com/litmuschaos/litmus-go/pkg/log"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/log"
 	"github.com/pkg/errors"
 )
 

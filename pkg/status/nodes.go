@@ -4,8 +4,8 @@ import (
 	"strings"
 	"time"
 
-	clients "github.com/litmuschaos/litmus-go/pkg/clients"
-	"github.com/litmuschaos/litmus-go/pkg/log"
+	clients "github.com/Vr00mm/litmus-chaos-toolkit/pkg/clients"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/log"
 	"github.com/openebs/maya/pkg/util/retry"
 	"github.com/pkg/errors"
 	logrus "github.com/sirupsen/logrus"

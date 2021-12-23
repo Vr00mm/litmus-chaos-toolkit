@@ -3,8 +3,8 @@ package lib
 import (
 	"strings"
 
-	network_chaos "github.com/litmuschaos/litmus-go/chaoslib/litmus/network-chaos/lib"
-	experimentTypes "github.com/litmuschaos/litmus-go/pkg/generic/pod-network-partition/types"
+	network_chaos "github.com/Vr00mm/litmus-chaos-toolkit/chaoslib/litmus/network-chaos/lib"
+	experimentTypes "github.com/Vr00mm/litmus-chaos-toolkit/pkg/generic/pod-network-partition/types"
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
 	corev1 "k8s.io/api/core/v1"

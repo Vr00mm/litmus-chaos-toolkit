@@ -6,13 +6,13 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/litmuschaos/litmus-go/chaoslib/litmus/aws-ssm-chaos/lib"
-	experimentTypes "github.com/litmuschaos/litmus-go/pkg/aws-ssm/aws-ssm-chaos/types"
-	clients "github.com/litmuschaos/litmus-go/pkg/clients"
-	"github.com/litmuschaos/litmus-go/pkg/cloud/aws/ssm"
-	"github.com/litmuschaos/litmus-go/pkg/log"
-	"github.com/litmuschaos/litmus-go/pkg/types"
-	"github.com/litmuschaos/litmus-go/pkg/utils/common"
+	"github.com/Vr00mm/litmus-chaos-toolkit/chaoslib/litmus/aws-ssm-chaos/lib"
+	experimentTypes "github.com/Vr00mm/litmus-chaos-toolkit/pkg/aws-ssm/aws-ssm-chaos/types"
+	clients "github.com/Vr00mm/litmus-chaos-toolkit/pkg/clients"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/cloud/aws/ssm"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/log"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/types"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/utils/common"
 	"github.com/pkg/errors"
 )
 

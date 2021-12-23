@@ -3,9 +3,9 @@ package environment
 import (
 	"strconv"
 
-	cassandraTypes "github.com/litmuschaos/litmus-go/pkg/cassandra/pod-delete/types"
-	exp "github.com/litmuschaos/litmus-go/pkg/generic/pod-delete/types"
-	"github.com/litmuschaos/litmus-go/pkg/types"
+	cassandraTypes "github.com/Vr00mm/litmus-chaos-toolkit/pkg/cassandra/pod-delete/types"
+	exp "github.com/Vr00mm/litmus-chaos-toolkit/pkg/generic/pod-delete/types"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/types"
 	clientTypes "k8s.io/apimachinery/pkg/types"
 )
 

@@ -9,12 +9,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/litmuschaos/litmus-go/pkg/clients"
-	"github.com/litmuschaos/litmus-go/pkg/events"
-	"github.com/litmuschaos/litmus-go/pkg/log"
-	"github.com/litmuschaos/litmus-go/pkg/math"
-	"github.com/litmuschaos/litmus-go/pkg/result"
-	"github.com/litmuschaos/litmus-go/pkg/types"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/clients"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/events"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/log"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/math"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/result"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/types"
 	"github.com/pkg/errors"
 	apiv1 "k8s.io/api/core/v1"
 )

@@ -6,7 +6,7 @@ import (
 	clientTypes "k8s.io/apimachinery/pkg/types"
 
 	experimentTypes "github.com/Vr00mm/litmus-chaos-toolkit/pkg/generic/chaos-toolkit/types"
-	"github.com/litmuschaos/litmus-go/pkg/types"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/types"
 )
 
 //GetENV fetches all the env variables from the runner pod

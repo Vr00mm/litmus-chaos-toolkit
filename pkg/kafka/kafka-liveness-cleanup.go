@@ -3,9 +3,9 @@ package kafka
 import (
 	"time"
 
-	"github.com/litmuschaos/litmus-go/pkg/clients"
-	experimentTypes "github.com/litmuschaos/litmus-go/pkg/kafka/types"
-	"github.com/litmuschaos/litmus-go/pkg/utils/retry"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/clients"
+	experimentTypes "github.com/Vr00mm/litmus-chaos-toolkit/pkg/kafka/types"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/utils/retry"
 	"github.com/pkg/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

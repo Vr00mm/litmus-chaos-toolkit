@@ -5,9 +5,9 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/litmuschaos/litmus-go/pkg/cloud/aws/common"
-	experimentTypes "github.com/litmuschaos/litmus-go/pkg/kube-aws/ebs-loss/types"
-	"github.com/litmuschaos/litmus-go/pkg/log"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/cloud/aws/common"
+	experimentTypes "github.com/Vr00mm/litmus-chaos-toolkit/pkg/kube-aws/ebs-loss/types"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/log"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

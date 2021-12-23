@@ -3,10 +3,10 @@ package corruption
 import (
 	"strconv"
 
-	network_chaos "github.com/litmuschaos/litmus-go/chaoslib/litmus/network-chaos/lib"
-	clients "github.com/litmuschaos/litmus-go/pkg/clients"
-	experimentTypes "github.com/litmuschaos/litmus-go/pkg/generic/network-chaos/types"
-	"github.com/litmuschaos/litmus-go/pkg/types"
+	network_chaos "github.com/Vr00mm/litmus-chaos-toolkit/chaoslib/litmus/network-chaos/lib"
+	clients "github.com/Vr00mm/litmus-chaos-toolkit/pkg/clients"
+	experimentTypes "github.com/Vr00mm/litmus-chaos-toolkit/pkg/generic/network-chaos/types"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/types"
 )
 
 //PodNetworkCorruptionChaos contains the steps to prepare and inject chaos

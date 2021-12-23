@@ -8,9 +8,9 @@ import (
 	"github.com/Azure/azure-sdk-for-go/profiles/latest/compute/mgmt/compute"
 	"github.com/Azure/go-autorest/autorest/azure"
 	"github.com/Azure/go-autorest/autorest/azure/auth"
-	"github.com/litmuschaos/litmus-go/pkg/cloud/azure/common"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/cloud/azure/common"
 
-	experimentTypes "github.com/litmuschaos/litmus-go/pkg/azure/disk-loss/types"
+	experimentTypes "github.com/Vr00mm/litmus-chaos-toolkit/pkg/azure/disk-loss/types"
 	"github.com/pkg/errors"
 )
 

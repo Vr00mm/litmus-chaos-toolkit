@@ -3,12 +3,12 @@ package cassandra
 import (
 	"strings"
 
-	litmusexec "github.com/litmuschaos/litmus-go/pkg/utils/exec"
+	litmusexec "github.com/Vr00mm/litmus-chaos-toolkit/pkg/utils/exec"
 	"github.com/pkg/errors"
 
-	experimentTypes "github.com/litmuschaos/litmus-go/pkg/cassandra/pod-delete/types"
-	"github.com/litmuschaos/litmus-go/pkg/clients"
-	"github.com/litmuschaos/litmus-go/pkg/log"
+	experimentTypes "github.com/Vr00mm/litmus-chaos-toolkit/pkg/cassandra/pod-delete/types"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/clients"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/log"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

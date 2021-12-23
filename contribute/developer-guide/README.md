@@ -2,7 +2,7 @@
 
 The artifacts associated with a chaos-experiment are summarized below: 
 
-- Submitted in the litmuschaos/litmus-go repository, under the experiments/*chaos-category*/*experiment-name* folder 
+- Submitted in the Vr00mm/litmus-chaos-toolkit repository, under the experiments/*chaos-category*/*experiment-name* folder 
 
   - Experiment business logic in golang. May involve creating new or reusing an existing chaoslib 
   - Experiment test deployment manifest that is used for verification purposes
@@ -30,7 +30,7 @@ The *generate_experiment.go* script is a simple way to bootstrap your experiment
 - Clone the litmus-go repository & navigate to the `contribute/developer-guide` folder
 
   ```
-  $ git clone https://github.com/litmuschaos/litmus-go.git
+  $ git clone https://github.com/Vr00mm/litmus-chaos-toolkit.git
   $ cd litmus-go/contribute/developer-guide
   ```
 
@@ -51,7 +51,7 @@ The *generate_experiment.go* script is a simple way to bootstrap your experiment
   name: "sample-exec-chaos"
   version: "0.1.0"
   category: "sample-category"
-  repository: "https://github.com/litmuschaos/litmus-go/tree/master/sample-category/sample-exec-chaos"
+  repository: "https://github.com/Vr00mm/litmus-chaos-toolkit/tree/master/sample-category/sample-exec-chaos"
   community: "https://kubernetes.slack.com/messages/CNXNB0ZTN"
   description: "it execs inside target pods to run the chaos inject commands, waits for the chaos duration and reverts the chaos"
   keywords:
@@ -218,7 +218,7 @@ Follow the steps provided below to setup okteto & test the experiment execution.
   kubectl apply -f test/test.yml
   ```
 
-- Go to the root of this repository (litmuschaos/litmus-go) & launch the Okteto development environment in your workspace.
+- Go to the root of this repository (Vr00mm/litmus-chaos-toolkit) & launch the Okteto development environment in your workspace.
   This should take you to the bash prompt on the dev container into which the content of the litmus-go repo is loaded. 
 
   ```
@@ -280,7 +280,7 @@ Follow the steps provided below to setup okteto & test the experiment execution.
 
 ### Steps to Include the Chaos Charts/Experiments into the ChartHub
 
-- Send a PR to the [litmus-go](https://github.com/litmuschaos/litmus-go) repo with the modified experiment files, rbac, 
+- Send a PR to the [litmus-go](https://github.com/Vr00mm/litmus-chaos-toolkit) repo with the modified experiment files, rbac, 
   test deployment & README.
 - Send a PR to the [chaos-charts](https://github.com/litmuschaos/chaos-charts) repo with the modified experiment CR, 
   experiment chartserviceversion, rbac, (category-level) chaos chart chartserviceversion & package.yaml (if applicable). 

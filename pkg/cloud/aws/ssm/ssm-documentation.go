@@ -5,7 +5,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ssm"
-	"github.com/litmuschaos/litmus-go/pkg/cloud/aws/common"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/cloud/aws/common"
 	"github.com/pkg/errors"
 )
 

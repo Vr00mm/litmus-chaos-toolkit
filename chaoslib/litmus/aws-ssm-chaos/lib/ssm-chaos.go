@@ -5,13 +5,13 @@ import (
 	"strings"
 	"time"
 
-	experimentTypes "github.com/litmuschaos/litmus-go/pkg/aws-ssm/aws-ssm-chaos/types"
-	clients "github.com/litmuschaos/litmus-go/pkg/clients"
-	"github.com/litmuschaos/litmus-go/pkg/cloud/aws/ssm"
-	"github.com/litmuschaos/litmus-go/pkg/events"
-	"github.com/litmuschaos/litmus-go/pkg/log"
-	"github.com/litmuschaos/litmus-go/pkg/probe"
-	"github.com/litmuschaos/litmus-go/pkg/types"
+	experimentTypes "github.com/Vr00mm/litmus-chaos-toolkit/pkg/aws-ssm/aws-ssm-chaos/types"
+	clients "github.com/Vr00mm/litmus-chaos-toolkit/pkg/clients"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/cloud/aws/ssm"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/events"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/log"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/probe"
+	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/types"
 	"github.com/pkg/errors"
 )
 
