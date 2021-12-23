@@ -84,7 +84,7 @@ func main() {
 	// invoke the corresponding experiment based on the the (-name) flag
 	switch *experimentName {
 	case "chaos-toolkit":
-		chaosToolkit.Chaos (clients)
+		chaosToolkit.ChaosToolkit(clients)
 	case "container-kill":
 		containerKill.ContainerKill(clients)
 	case "disk-fill":

@@ -6,7 +6,6 @@ require (
 	github.com/Azure/azure-sdk-for-go v56.1.0+incompatible
 	github.com/Azure/go-autorest/autorest v0.11.17
 	github.com/Azure/go-autorest/autorest/azure/auth v0.5.7
-	github.com/Vr00mm/litmus-chaos-toolkit v0.0.0-20211223125242-157589d3e262 // indirect
 	github.com/aws/aws-sdk-go v1.38.59
 	github.com/containerd/cgroups v1.0.1
 	github.com/kyokomi/emoji v2.2.4+incompatible
