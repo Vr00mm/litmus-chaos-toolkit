@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"strings"
 
-	experimentTypes "github.com/Vr00mm/litmus-chaos-toolkit/pkg/generic/chaos-toolkit/types"
 	clients "github.com/Vr00mm/litmus-chaos-toolkit/pkg/clients"
+	experimentTypes "github.com/Vr00mm/litmus-chaos-toolkit/pkg/generic/chaos-toolkit/types"
 	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/log"
 	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/probe"
 	"github.com/Vr00mm/litmus-chaos-toolkit/pkg/status"
@@ -31,12 +31,6 @@ func PrepareChaosToolkit(experimentsDetails *experimentTypes.ExperimentDetails, 
 		experimentsDetails.ChaosServiceAccount, err = common.GetServiceAccount(experimentsDetails.ChaosNamespace, experimentsDetails.ChaosPodName, clients)
 		if err != nil {
 			return errors.Errorf("unable to get the serviceAccountName, err: %v", err)
-		}
-	}
-
-	if experimentsDetails.EngineName != "" {
-		if err := common.SetHelperData(chaosDetails, clients); err != nil {
-			return err
 		}
 	}
 
