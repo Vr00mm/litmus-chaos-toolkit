@@ -5,7 +5,7 @@ import (
 
 	clientTypes "k8s.io/apimachinery/pkg/types"
 
-	experimentTypes "github.com/litmuschaos/litmus-go/pkg/generic/chaos-toolkit/types"
+	experimentTypes "github.com/Vr00mm/litmus-chaos-toolkit/pkg/generic/chaos-toolkit/types"
 	"github.com/litmuschaos/litmus-go/pkg/types"
 )
 
@@ -28,16 +28,14 @@ func GetENV(experimentDetails *experimentTypes.ExperimentDetails) {
 	experimentDetails.LIBImagePullPolicy = types.Getenv("LIB_IMAGE_PULL_POLICY", "Always")
 	experimentDetails.LIBImage = types.Getenv("LIB_IMAGE", "litmuschaos/go-runner:latest")
 
-
 	experimentDetails.Delay, _ = strconv.Atoi(types.Getenv("STATUS_CHECK_DELAY", "2"))
 	experimentDetails.Timeout, _ = strconv.Atoi(types.Getenv("STATUS_CHECK_TIMEOUT", "180"))
 	experimentDetails.TerminationGracePeriodSeconds, _ = strconv.Atoi(types.Getenv("TERMINATION_GRACE_PERIOD_SECONDS", ""))
-	
+
 	experimentDetails.AppName = types.Getenv("APP_NAME", "")
 	experimentDetails.OrgName = types.Getenv("ORG_NAME", "")
 	experimentDetails.SpaceName = types.Getenv("SPACE_NAME", "")
 
 	experimentDetails.CredentialsSecretName = types.Getenv("SECRET_NAME", "cloud-foundry-credentials")
-
 
 }

@@ -24,8 +24,8 @@ type ExperimentDetails struct {
 	Timeout                       int
 	Delay                         int
 	Sequence                      string
-    AppName						  string
-	OrgName						  string
-    SpaceName                     string
+	AppName                       string
+	OrgName                       string
+	SpaceName                     string
 	CredentialsSecretName         string
 }
